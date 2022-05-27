@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2021 Workiva-->
+<!--r:5bfd1183-4800-4a6d-bb84-3eb21b4b6a70,g:91fb88fe-0667-447d-bd8c-637080e74f43-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:gleif="http://www.gleif.org/20201231" xmlns:xbrli="http://www.xbrl.org/2003/instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.gleif.org/20201231">
+  <xs:import namespace="http://www.esma.europa.eu/taxonomy/2019-03-27/esef_cor" schemaLocation="http://www.esma.europa.eu/taxonomy/2019-03-27/esef_cor.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2019-03-27/esef_cor-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2019-03-27/esef_cor-gen-en.xml" xlink:role="http://www.xbrl.org/2003/role/linkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gleif-2020-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gleif-2020-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gleif-2020-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gleif-2020-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="StatementofcomprehensiveincomeprofitorlossbyfunctionofexpenseStatement" roleURI="http://www.gleif.org/role/StatementofcomprehensiveincomeprofitorlossbyfunctionofexpenseStatement">
+        <link:definition>1001001 - Statement - Statement of comprehensive income, profit or loss, by function of expense (Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StatementoffinancialpositioncurrentnoncurrentStatement" roleURI="http://www.gleif.org/role/StatementoffinancialpositioncurrentnoncurrentStatement">
+        <link:definition>1002002 - Statement - Statement of financial position, current/non-current (Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StatementofcashflowsdirectmethodStatement" roleURI="http://www.gleif.org/role/StatementofcashflowsdirectmethodStatement">
+        <link:definition>1003003 - Statement - Statement of cash flows, direct method (Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StatementofchangesinequityStatement" roleURI="http://www.gleif.org/role/StatementofchangesinequityStatement">
+        <link:definition>1004004 - Statement - Statement of changes in equity (Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TagsthatmustbeappliedifcorrespondinginformationispresentinareportStatement" roleURI="http://www.gleif.org/role/TagsthatmustbeappliedifcorrespondinginformationispresentinareportStatement">
+        <link:definition>000005 - Tags that must be applied if corresponding information is present in a report (Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Tagsthatmustbeappliedifcorrespondinginformationispresentinareport" roleURI="http://www.gleif.org/role/Tagsthatmustbeappliedifcorrespondinginformationispresentinareport">
+        <link:definition>100101 - Tags that must be applied if corresponding information is present in a report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TagsthatmustbeappliedifcorrespondinginformationispresentinareportPolicies" roleURI="http://www.gleif.org/role/TagsthatmustbeappliedifcorrespondinginformationispresentinareportPolicies">
+        <link:definition>200201 - Tags that must be applied if corresponding information is present in a report (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TagsthatmustbeappliedifcorrespondinginformationispresentinareportTables" roleURI="http://www.gleif.org/role/TagsthatmustbeappliedifcorrespondinginformationispresentinareportTables">
+        <link:definition>300301 - Tags that must be applied if corresponding information is present in a report (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TagsthatmustbeappliedifcorrespondinginformationispresentinareportDetails" roleURI="http://www.gleif.org/role/TagsthatmustbeappliedifcorrespondinginformationispresentinareportDetails">
+        <link:definition>400401 - Tags that must be applied if corresponding information is present in a report (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TagsthatmustbeappliedifcorrespondinginformationispresentinareportStatement_1" roleURI="http://www.gleif.org/role/TagsthatmustbeappliedifcorrespondinginformationispresentinareportStatement_1">
+        <link:definition>000006 - Tags that must be applied if corresponding information is present in a report (Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Anchoring" roleURI="http://www.gleif.org/role/Anchoring">
+        <link:definition>Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="gleif_SocialContributionsAndExpensesForPensionsAndCare" abstract="false" name="SocialContributionsAndExpensesForPensionsAndCare" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="gleif_LiabilitiesDueToBoardDirectors" abstract="false" name="LiabilitiesDueToBoardDirectors" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="gleif_PaymentsForOtherFinancingLiabilities" abstract="false" name="PaymentsForOtherFinancingLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="gleif_ProceedsFromOtherFinancingLiabilities" abstract="false" name="ProceedsFromOtherFinancingLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>
